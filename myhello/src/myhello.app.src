@@ -1,0 +1,19 @@
+{application, myhello,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { myhello_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    cowlib,
+    ranch
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
