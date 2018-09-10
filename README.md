@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # erlang-cowboy-elm
+=======
+# erlang-cowboy
+>>>>>>> 4de8cb4b5fff6fbeb784ac8477c61a05cec82386
 These are some examples of using Erlang Programming OTP web server by using Cowboy as the backend. Some examples are using Elm programming language as the front end.
 
 ## Installation
