@@ -1,0 +1,19 @@
+{application, myrest_hello,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { myrest_hello_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    cowlib,
+    ranch
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
